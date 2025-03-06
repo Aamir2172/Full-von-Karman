@@ -37,7 +37,7 @@ v_str = '(1./10*sin(t))*(x**2+y**2)'
 #u_str     = 'exp(-t)*((x)*(y-1)*y*(x-1))'
 #dt_u_str  = '(-exp(-t))*((x)*(y-1)*y*(x-1))'
 #dtt_u_str = '(exp(-t))*((x)*(y-1)*y*(x-1))'
-#v_str = '(1./10*sin(t))*((x)*(y-1)*y*(x-1))'
+#v_str = '(1./100*sin(t))*((x)*(y-1)*y*(x-1))'
 #(x**2+y**2)'
 
 mesh = UnitSquareMesh(8,8)
